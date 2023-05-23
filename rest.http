@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3000/api
+
+###
+
+POST {{baseUrl}}/agent
+Content-Type: application/json
+
+{
+    "id": "100"
+}
